@@ -1,13 +1,20 @@
-import React from "react";
+import React from 'react'
 
+const Train = () => {
+  return (
+    <>
+    <h1>Hello this from Train page</h1>
+    <h2>HELLO</h2>
+    <p>Cras facilisis urna ornare ex volutpat, et
+    convallis erat elementum. Ut aliquam, ipsum vitae
+    gravida suscipit, metus dui bibendum est, eget rhoncus nibh
+    metus nec massa. Maecenas hendrerit laoreet augue
+    nec molestie. Cum sociis natoque penatibus et magnis
+    dis parturient montes, nascetur ridiculus mus.</p>
 
-function Train (){
-    return(
-      <div>
-        <h1>n section</h1>
-        
-
-      </div>
-    );
+    <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
+  </>
+  )
 }
-export default Train;
+
+export default Train
